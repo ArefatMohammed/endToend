@@ -1,0 +1,21 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Abigiya",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "protractor /conf/config.js"
+  },
+  "author": "Abigiya",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "7.0.0",
+    "jasmine": "3.9.0",
+    "typescript": "4.4.3",
+    "@types/jasmine": "3.9.1",
+    "@types/node": "16.9.1",
+    "xlsx": "0.17.2",
+    "cryptorjs": "3.0.0"
+  }
+}
